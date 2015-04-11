@@ -1,0 +1,183 @@
+/*
+ * tested in IEtester
+ *====================/
+
+/* ============================================================
+   CHECKBOXES
+   ============================================================ */
+.checkbox+label{
+    padding-left: 10px;
+}
+/*==================================================
+  HEADER
+  ==================================================*/
+/*
+ * TOP MENU
+ */
+.top-menu-item{
+    display: inline;
+    margin-right: 0;
+}
+    .top-menu-item.current a{
+        border-bottom: 4px solid #fff;
+        padding-bottom: 11px;
+    }
+
+/*
+ * ENTER & ACCOUNT MENU
+ */
+/* button for enter */
+.account-menu-enter {
+    background: #000 url("../img/icons_account_enter_single.png") no-repeat 0 29px;
+}
+    .account-menu-enter:hover{
+        background: #000 url("../img/icons_account_enter_single_hover.png") no-repeat 0 29px;
+    }
+
+/* ============================================================
+   CONTENT
+   ============================================================ */
+/*
+ * FEATURES
+ */
+/* features: single item */
+.features li {
+    width: 310px;
+    margin: 0;
+    padding-right: 10px;
+}
+    /* title for features */
+    .features-title {
+        position: relative;
+        padding-bottom: 70px; /* free space for icon after title */
+        margin-bottom: 0;
+        font-size: 3em;
+        line-height: 1.4em;
+        background: url("../img/icon_features_title.png") no-repeat 50% 60px;
+    }
+
+/* ============================================================
+   CONTENT
+   ============================================================ */
+/*
+ * BREADCRUMBS
+ */
+
+/* icon for breadcrumb item */
+.breadcrumbs-item{
+    background: url("../img/icon_rhomb.png") no-repeat 82% 50%;
+}
+.breadcrumbs-item.current{
+    background: none;
+}
+/*
+ * INDEX SECTION
+ */
+.index-section{
+    clear: both;
+    zoom: 1;
+}
+    /* right column */
+    .index-right-column{
+        margin: 0;
+        padding-bottom: 0;
+        background: url("../img/line_index_section_vertical.png") no-repeat 0 50%;
+    }
+        /* left column: news*/
+        .index-news{
+            width: 340px;
+            margin: 0;
+        }
+        /* right column: gallery*/
+        .gallery-controls{
+            margin-top: 50px;
+        }
+        /** left column: contacts */
+        .contacts-btns{
+            margin-top: 45px;
+        }
+        /* right column: order form */
+        .index-order{
+            width: 317px;
+        }
+            .index-order p{
+                width: 300px;
+            }
+            .order-form input{
+                height: auto;
+                margin-right: 17px;
+                padding: 11px 0 11px 15px;
+            }
+/* ============================================================
+   CONTENT:MAGAZINE PAGE
+   ============================================================ */
+/*
+ * PAGINATION
+ */
+.magazine-pagination-item{
+    display: inline;
+}
+/* ============================================================
+   CONTENT:PRICE PAGE
+   ============================================================ */
+/*
+ * MOTTO
+ */
+.price-motto{
+    background: url("../img/bg_motto.png") no-repeat 0 50%;
+}
+/*
+ * LEFT COLUMN
+ */
+.price-left-column{
+    width: 255px;
+}
+/* used tools */
+.price-used-tools-item{
+    background: url("../img/icon_rhomb.png") no-repeat 0 50%;
+}
+/*
+ * RIGHT COLUMN
+ */
+.price-right-column .price-column-heading{
+    padding-bottom: 37px;
+}
+/*
+ * ABOUT US
+ */
+.price-about-us{
+    padding: 0;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+/* copyright */
+.copyright{
+    padding-left: 140px;
+}
+
+/* ============================================================
+   POP-UP: LOGIN FORM
+   ============================================================ */
+/* account inputs */
+.popup-login .account-input{
+    height: auto;
+    padding: 10px 0 10px 15px;
+}
+    /* account input: login */
+    .popup-login .account-input-login{
+        background: url("../img/icon_login.png") no-repeat 95% 50%;
+    }
+    /* account input: password */
+    .popup-login .account-input-pass{
+        background: url("../img/icon_password.png") no-repeat 95% 50%;
+    }
+    /* checkbox: remember */
+    .popup-login .account-remember{
+        margin-top: 15px;
+    }
+        .popup-login .account-remember+label{
+            padding: 0;
+            margin-right: 58px;
+        }
