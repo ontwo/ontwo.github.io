@@ -114,6 +114,9 @@ a:active{
     text-align: center;
     font-weight: 300;
 }
+.btn:link{
+    color: #fff;
+}
 .btn:visited{
     color: #fff;
 }
